@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: italian;
+	src: url(AguafinaScript-Regular.ttf);
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	background: url('images/bg.jpg') fixed no-repeat;
+	background-size: 100%;
+	overflow-x: hidden;
+}
+
+.error {
+	color: red;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+header {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+h1 {
+	font-family: italian;
+	font-size: 60px;
+	color: #be3f00;
+}
+
+nav ul {
+	color: #FFF;
+	list-style: none;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+nav ul li {
+	text-align: center;
+	display: inline;
+}
+
+nav ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color: #666;
+	background-color: #DBA24A;
+	padding: 5px 20px;
+	-webkit-transition: background-color 1s;
+}
+
+nav ul li a:hover {
+	background-color: #fffa8a;
+}
+
+.view {
+	background-color: rgba(233, 210, 160, 0.8);
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 50px;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	float: right;
+}
+
+.abs {
+	position: absolute;
+	margin-left: 40%;
+	margin-top: -12%;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+
+#name {
+	width: 93%;
+	display: inline;
+}
+
+textarea {
+	width: 100%;
+	height: 200px;
+	resize: none;
+	padding: 10px;
+}
+
+#slider {
+	width: 90%;
+	height: 550px;
+	vertical-align: middle;
+	display: inline;
+}
+
+.slide {
+	width: 32px;
+	cursor: pointer;
+}
+
+#desc {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	position: absolute;
+	margin-top: -43px;
+	margin-left: 36px;
+	display: block;
+	background-color: rgba(255,255,255,0.5);
+	width: 61.6%;
+	padding: 10px;
+}
+
+span {
+	padding-right: 1%;
+}
+
+.circle {
+	cursor: pointer;
+	vertical-align: middle;
+	padding-right: 3%;
+	padding-bottom: 30px;
+}
+
+#pizza {
+	width: 458px;
+	height: 448px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	background: url('images/builder/pizza.png') no-repeat;
+}
+
+#pizza img {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#price {
+	font-size: 30px;
+	color: #093;
+	width: 70px;
+	height: 50px;
+}
+
+.items img {
+	margin-right: 35px;
+	-webkit-transition: all 1s ease;
+	width: 100px;
+	height: 100px;
+}
+
+.items img:hover {
+	-webkit-transition: all 1s ease;
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+}
+
+th {
+	text-align: left;
+}
+
+td {
+	width: 300px;
+	padding-right: 30px;
+}
+
+button[type=submit] {
+	width: 80px;
+	height: 50px;
+	float: right;
+	background: url('images/arrow-right.jpg');
+	background-size: 100%;
+}
+
+select {
+	margin-bottom: 20px;
+}
+
+canvas {
+	background: #FFFFFF;
+	margin-left: -4%;
+}
+
+footer {
+	font-family: "Courier New", Courier, Monospace;
+	background-color: #DBA24A;
+	padding: 10px;
+	text-align: center;
+}

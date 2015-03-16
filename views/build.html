@@ -1,0 +1,66 @@
+<div ng-controller="BuildController">
+	<h1>Build Your Own Pizza</h1>
+	<span>Size</span>
+	<select id="size" ng-model="size" ng-change="sizeChange()">
+		<option value="1"> Small 10 in. </option>
+		<option value="2"> Medium 14 in. </option>
+		<option value="3"> Large 16 in. </option>
+	</select>
+	<br>
+	<div ng-show="size">
+		<span>Pepperoni</span>
+		<img id="pepperoni" class="circle" src="images/builder/n.png" ng-click="add('pepperoni')">
+		<span>Olives</span>
+		<img id="olives" class="circle" src="images/builder/n.png" ng-click="add('olives')">
+		<br>
+		<span>Green Peppers</span>
+		<img id="green_peppers" class="circle" src="images/builder/n.png" ng-click="add('green_peppers')">
+		<span>Banana Peppers</span>
+		<img id="banana_peppers" class="circle" src="images/builder/n.png" ng-click="add('banana_peppers')">
+		<br>
+		<span>Jalapeño Peppers</span>
+		<img id="jalapenos" class="circle" src="images/builder/n.png" ng-click="add('jalapenos')">
+		<span>Italian Sausage</span>
+		<img id="sausage" class="circle" src="images/builder/n.png" ng-click="add('sausage')">
+		<br>
+		<span>Bacon Bits</span>
+		<img id="bacon" class="circle" src="images/builder/n.png" ng-click="add('bacon')">
+		<span>Mushrooms</span>
+		<img id="mushrooms" class="circle" src="images/builder/n.png" ng-click="add('mushrooms')">
+		<br>
+		<span>Pineapple</span>
+		<img id="pineapple" class="circle" src="images/builder/n.png" ng-click="add('pineapple')">
+		<div class="right">
+			<span id="price"> $0.00 </span>
+			<br>
+			<button type="button" ng-click="addToCheckout()">
+				Order
+			</button>
+		</div>
+	</div>
+	<div id="pizza"></div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>

@@ -1,0 +1,40 @@
+<div ng-controller="CheckoutController">
+	<h1>Checkout</h1>
+	<img class="abs" src="images/order.png">
+	<h2 class="error" ng-show="orders.length <= 0">Error: You don't have anything to order!</h2>
+	<table>
+		<tr>
+			<th>Item</th>
+			<th>Price</th>
+		</tr>
+		<tr ng-repeat="order in orders">
+			<td>{{order.name}}</td>
+			<td>{{order.price}}</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>${{total}}</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+			<button type="button" ng-click="order()">
+				Deliver
+			</button></td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>
